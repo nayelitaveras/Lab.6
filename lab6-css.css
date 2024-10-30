@@ -1,0 +1,217 @@
+.static-box{
+    position: static;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: beige;
+}
+
+.relative-box{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+.absolute-box{
+    position:absolute;
+    top: 10px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+.fixed-box{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: bisque;
+}
+
+.sticky-box{
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 1000;
+    background-color: blue;
+}
+
+.background-image{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Nature-Full-HD-Images-For-Desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-image-repeat{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/27/19/46/ai-generated-7483596_960_720.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.container2{
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.box1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    background-color: blueviolet;
+}
+
+.box2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    background-color: rgb(233, 198, 198);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-child{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(201, 123, 22);
+}
+ 
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-child2{ 
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.flex-child3{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(226, 185, 185);
+}
+
+.flex-container4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.child{
+    flex: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    flex-wrap: wrap;
+    background-color: aqua;
+
+}
+
+.flex-container5{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    background-color: rgb(255, 0, 221);
+}
+
+.child2{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.child:nth-child(1){
+    height: 100px;
+}
+
+.child:nth-child(2){
+    height: 150px;
+}
+
+.child:nth-child(3){
+    height: 200px;
+}
+
+.flex-container6{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 200px;
+    background-color: rgb(255, 199, 241);
+}
+
+.child3{
+    flex: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(197, 146, 245);
+}
+
+.flex-container7{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(250, 83, 17);
+}
+
+.child2{
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(64, 204, 204);
+}
+
+.grow{
+    flex; 2 
+}
